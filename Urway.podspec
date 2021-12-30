@@ -5,6 +5,7 @@ Pod::Spec.new do |spec|
   spec.summary      = "A short description of Urway."
   spec.homepage     = "https://github.com/ameralshabebi/UrwayFramework"
   spec.license      = "MIT"
+  spec.swift_version = '5.0'
   spec.license      = { :type => "MIT" }
   spec.author             = { "ameralshabebi" => "amershabebi@gmail.com" }
   spec.ios.deployment_target = "11.0"
