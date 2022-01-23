@@ -9,7 +9,7 @@ import UIKit
 
 class PaymentConfiguration {
     static func setup(parameters: [String: Any] = [:]) -> PaymentViewController {
-        guard let controller = getController("Main", "PaymentViewController") as? PaymentViewController else {return PaymentViewController()}
+        guard let controller = getController("Payment", "PaymentViewController") as? PaymentViewController else {return PaymentViewController()}
         let router = PaymentRouter(view: controller)
         let presenter = PaymentPresenter(view: controller)
         let manager = PaymentManager()
